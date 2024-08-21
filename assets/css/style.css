@@ -244,5 +244,32 @@ nav .container ul li .judul img{
 .berita .container ul a img:hover{
     box-shadow: 0 0 10px 1px blue;
 }
-
 /* Berita END */
+
+
+/* WA START */
+.wa{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.wa .container{
+    padding: 10px;
+}
+
+.wa .container ul{
+    display: flex;
+    justify-content: end;
+}
+
+.wa .container ul a{
+    padding: 10px;
+    text-align: end;
+
+}
+
+.wa .container ul a img{
+    width: 20%;
+}
+/* WA END */
