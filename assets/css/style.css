@@ -1,0 +1,173 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: poppins;
+}
+
+/* navbar START */
+nav{
+    width: 100%;
+    background-color: white;
+}
+
+nav .container{
+    padding: 10px;
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+/* nav .container ul li .judul{
+    color: black;  
+    font-size: 24px;
+    text-decoration: none;
+} */
+
+nav .container ul li .judul{
+    display: flex;
+    justify-content: center;
+}
+
+nav .container ul li .judul img{
+    width: 40%;
+}
+        /* Menu START */
+        .menu{
+            width: 100%;            
+            background-color: black;
+
+            position: sticky;
+            top: 0;
+
+        }
+
+        .menu .container{
+            padding: 10px;
+        }
+
+        .menu .container ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .menu .container ul li a{
+            color: white;
+            padding: 10px;
+        }.menu .container ul li a:hover{
+            color: lightblue;
+
+            text-decoration: underline;
+            text-underline-offset: 10px;
+        }
+        /* Menu END */
+
+/* navbar END */
+
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+    background-color: rgb(44,125,255);
+
+    position: sticky;
+    top: 0;
+}
+
+.marquee .container{
+    padding: 5px;
+}
+
+.marquee .container p{
+    color: white;
+}
+
+/* Marquee END */
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+
+}
+
+.hero .container img{
+    width: 100%;
+}
+
+.hero .container ul{
+    display: flex;
+}
+
+.hero .container ul a{
+    padding: 5px;
+}.hero .container ul .pertama{
+    box-shadow: 0 0 10px 1px;
+}
+
+.hero .container ul a img{
+    width: 100%;
+}
+
+.hero .container ul a img:hover{
+    box-shadow: 0 0 10px 1px blue;
+}
+/* Hero END */
+
+
+/* Content START */
+.content{
+    width: 100%;
+}
+
+.content .container{
+    padding: 10px;
+}
+
+.content .container ul{
+    padding: 10px;
+}
+
+.content .container ul ul{
+    padding: 20px;
+}
+/* Content END */
+
+
+/* Visi dan Misi START */
+.visi{
+    width: 100%;
+}
+
+.visi .container{
+    padding: 10px;
+}
+
+.visi .container .visi{
+    color: white;
+    background-color: blue
+} .visi .container .misi{
+    color: white;
+    background-color: blue
+}
+
+.visi .container ul{
+    display: flex;
+}
+
+.visi .container ul img{
+    width: 100%;
+}
+
+/* Visi dan Misi END */
