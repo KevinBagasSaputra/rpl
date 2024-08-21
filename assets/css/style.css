@@ -138,47 +138,74 @@ nav .container ul li .judul img{
     max-width: 80%;
 
     margin: 0 auto;
-    display: block;}
+    display: block;
+}
+
+.content .container .content-text h2::selection{
+    background-color: lightblue;
+}
+
+.content .container .content-text ul p::selection{
+    background-color: lightblue;
+}
+
+.content .container .content-text h3::selection{
+    background-color: lightblue;
+}
 
 .content .container ul{
     padding: 10px;
 }
 
 .content .container ul ul{
-    padding: 20px;
+    padding: 30px;
 }
+
+.content .container ul ul li{
+    padding: 2px;
+    font-size: 1em;
+}
+
+.content .container ul ul li::selection{
+    background-color: lightblue;
+}
+
+
 /* Content END */
 
 
-/* Visi dan Misi START */
-.visi{
-    width: 100%;
-}
+/* Tujuan START */
+    .tujuan{
+        width: 100%;
+    }
 
-.visi .container{
-    padding: 10px;
-}
+    .tujuan .container{
+        min-width: 80%;
+        max-width: 80%;
+    
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+    }
 
-.visi .container .visi{
-    color: white;
-    background-color: rgb(44,125,255);
-} .visi .container .misi{
-    color: white;
-    background-color: rgb(44,125,255);
-}
+    .tujuan .container h2{
+        
+    }
 
-.visi .container ul{
-    display: flex;
-}
+    .tujuan .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.visi .container ul img{
-    width: 100%;
-}
+    .tujuan .container ul a{
+        padding: 5px;
+    }
 
-/* Visi dan Misi END */
-
-
-
+    .tujuan .container ul a img{
+        width: 100%;
+    }
+/* Tujuan END */
 
 /* Berita START */
 .berita{
@@ -189,9 +216,15 @@ nav .container ul li .judul img{
     padding: 10px;
 }
 
+.berita .container h2::selection{
+    background-color: lightblue;
+}
+
 .berita .container ul{
     display: flex;
     flex-wrap: wrap;
+
+    justify-content: space-evenly;
 }
 
 .berita .container ul a{
