@@ -9,8 +9,16 @@ body{
 
 /* navbar START */
 nav{
-    width: 100%;
-    background-color: white;
+    min-width: 100%;
+    min-height: 100px;
+
+    max-width: 50%;
+    max-height: 600px;
+
+    background-image: 
+        url("../img/nav/navbar.jpeg");
+    background-size: cover;
+    /* filter:brightness(50%);  */
 }
 
 nav .container{
@@ -39,7 +47,10 @@ nav .container ul li .judul{
 
 nav .container ul li .judul img{
     width: 40%;
-}
+
+    /* border-radius: 20px;
+    background-color: rgb(32, 72, 85); */
+} 
         /* Menu START */
         .menu{
             width: 100%;            
