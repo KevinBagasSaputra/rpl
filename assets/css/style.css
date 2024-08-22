@@ -246,6 +246,21 @@ nav .container ul li .judul img{
 }
 /* Berita END */
 
+/* Footer START */
+.footer{
+    width: 100%;
+    background-color: green;
+}
+
+.footer .container{
+    padding: 10px;
+}
+
+.footer .container p{
+    color: white;
+    text-align: center;
+}
+/* Footer END */
 
 /* WA START */
 .wa{
