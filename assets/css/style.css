@@ -267,6 +267,13 @@ nav .container ul li .judul img{
     width: 100%;
     position: fixed;
     bottom: 0;
+
+    transition: all ease 10ms;
+    filter: grayscale(100%)
+}.wa:hover{
+    filter: none;
+
+    transition: all ease-in-out 50ms;
 }
 
 .wa .container{
