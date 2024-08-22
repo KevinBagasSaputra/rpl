@@ -1,0 +1,184 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+/* Navbar START */
+nav{
+    width: 100%;
+    background-color: #FFC400;
+}
+
+nav .container{
+    padding: 10px;
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+        /* Marquee START */
+        .marquee{
+            width: 100%;
+            background-color: #bb9853;
+
+            position: sticky;
+            top: 0;
+        }
+
+        .marquee .container{
+            padding: 5px;
+        }
+
+        .marquee .container p{
+            color: white;
+        }
+        /* Marquee END */
+
+
+
+        /* Menu START */
+        .menu{
+            width: 100%;
+            background-color: black;
+
+            position: sticky;
+            top: 0;
+        }
+
+        .menu .container{
+            padding: 10px;
+        }
+
+        .menu .container ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .menu .container ul li{
+            list-style-type: none;
+        }
+
+        .menu .container ul li a{
+            padding: 10px;
+            color: white;
+        }.menu .container ul li a:hover{
+            color: #FFC400;
+            text-decoration: underline;
+            text-underline-offset: 10px;
+        }
+        /* Menu END */
+
+/* Navbar END */
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+    background-color: black;
+}
+
+.hero .container{
+
+}
+
+.hero .container img{
+    width: 100%;
+
+    min-height: 100px;
+
+    max-height: 600px;
+    object-fit: contain;
+}
+/* Hero END */
+
+
+/* About START */
+.about{
+    width: 100%;
+}
+
+.about .container{
+    padding: 10px;
+}
+
+.about .container .about-text{
+    min-width: 80%;
+    max-width: 80%;
+
+    margin: 0 auto;
+    display: block;
+}
+/* About END */
+
+/* Services START */
+.services{
+    width: 100%;
+}
+
+.services .container{
+    padding: 10px;
+}
+
+.services .container .services-text{
+    min-width: 80%;
+    max-width: 80%;
+
+    margin: 0 auto;
+    display: block;
+}
+
+.services .container .services-text ul{
+    padding: 25px;
+}
+/* Services END */
+
+
+/* Portfolio START */
+.portfolio{
+    width: 100%;
+}
+
+.portfolio .container{
+    padding: 10px;
+}
+
+.portfolio .container .portfolio-text{
+    min-width: 80%;
+    max-width: 80%;
+
+    margin: 0 auto;
+    display: block;
+}
+
+.portfolio .container .portfolio-img{
+    min-width: 80%;
+    max-width: 80%;
+
+    margin: 0 auto;
+    display: block;
+
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}.portfolio .container .portfolio-img a{
+    margin: 10px;
+}.portfolio .container .portfolio-img a img{
+    width: 100%;
+}
+/* Portfolio END */

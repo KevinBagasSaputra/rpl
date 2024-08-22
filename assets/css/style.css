@@ -235,9 +235,12 @@ nav .container ul li .judul img{
 
 .berita .container ul a img{
     width: 100%;
-    min-height: 300px;
-    max-height: 500px;
 
+    /* 300 px */
+    min-height: 300px;
+    max-height: 300px;
+    /* 500px */
+    
     object-fit: cover;
 }
 
