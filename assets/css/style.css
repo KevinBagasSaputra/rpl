@@ -216,6 +216,10 @@ nav .container ul li .judul img{
     padding: 10px;
 }
 
+.berita .container h2{    
+    padding: 10px;
+    text-align: center;
+}
 .berita .container h2::selection{
     background-color: lightblue;
 }
@@ -265,7 +269,7 @@ nav .container ul li .judul img{
 }
 
 .contact .container ul{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
 }
