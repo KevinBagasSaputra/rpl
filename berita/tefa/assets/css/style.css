@@ -34,7 +34,8 @@ nav .container ul li .judul{
         /* Marquee START */
         .marquee{
             width: 100%;
-            background-color: #bb9853;
+            background-color: #FFB40F;
+            /* background-color: #bb9853; */
 
             position: sticky;
             top: 0;
@@ -116,6 +117,18 @@ nav .container ul li .judul{
     padding: 10px;
 }
 
+.about .container .about-text h2{
+    color: #FFC400
+}
+.about .container .about-text img{
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    
+    object-fit: cover;
+
+}
+
 .about .container .about-text{
     min-width: 80%;
     max-width: 80%;
@@ -141,6 +154,13 @@ nav .container ul li .judul{
     margin: 0 auto;
     display: block;
 }
+.services .container .services-text h2{
+    color: #FFC400;
+}
+
+.services .container .services-text img{
+    width: 100%;
+}
 
 .services .container .services-text ul{
     padding: 25px;
@@ -163,6 +183,8 @@ nav .container ul li .judul{
 
     margin: 0 auto;
     display: block;
+}.portfolio .container .portfolio-text h2{
+    color: #FFC400; 
 }
 
 .portfolio .container .portfolio-img{
@@ -180,5 +202,7 @@ nav .container ul li .judul{
     margin: 10px;
 }.portfolio .container .portfolio-img a img{
     width: 100%;
+}.portfolio .container .portfolio-img a img:hover{
+    
 }
 /* Portfolio END */
