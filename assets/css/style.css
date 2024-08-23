@@ -269,7 +269,7 @@ nav .container ul li .judul img{
 }
 
 .contact .container ul{
-    padding: 10px;
+
     display: flex;
     justify-content: space-evenly;
 }
@@ -304,6 +304,7 @@ nav .container ul li .judul img{
     margin: 0 auto;
     display: block;
     padding: 10px;
+    
 }
 
 .contact-detail .container ul{
@@ -329,7 +330,7 @@ nav .container ul li .judul img{
 }
 
 .footer .container{
-    padding: 10px;
+    padding: 20px;
 }
 
 .footer .container p{
