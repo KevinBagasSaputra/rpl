@@ -269,14 +269,12 @@ nav .container ul li .judul img{
 }
 
 .contact .container ul{
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .contact .container ul li{
     padding: 2px;
-
     list-style-type: none;
 }
 
